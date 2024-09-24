@@ -18,16 +18,16 @@ class FileHandler:
         file_stats = os.stat(file_path)
         return file_stats
 
-    def get_file_content(self, file_path):
+    def get_file_time_content(self, file_path):
         with open(file_path, 'r') as file:
             lines = file.readlines()
             if len(lines) < 2:
-                return lines
-            return lines[1] + '\n' + lines[-1]
+                return None
+            return [CommonFunc.extract_date_time(lines[1]), CommonFunc.extract_date_time(lines[-1])]
         raise ValueError("File is empty")
 
     def get_file_stats_and_content(self, file_path):
-        return self.get_file_stats(file_path), self.get_file_content(file_path) 
+        return self.get_file_stats(file_path), self.get_file_time_content(file_path) 
     
     def get_full_info(self, file_path):
         res = {}
@@ -35,7 +35,10 @@ class FileHandler:
         res['file_size'] = properties.st_size
         res['created_at'] = CommonFunc.get_date_time(properties.st_ctime)
         res['modified_at'] = CommonFunc.get_date_time(properties.st_mtime)
-        res['short_content'] = content
+        if content is None:
+            return res
+        res['log_start_time'] = content[0]
+        res['log_end_time'] = content[1]
         return res 
     
     def get_mi_log_infor(self):

@@ -1,20 +1,22 @@
 {
-    "case3_02": {
+    "case3_01": {
         "mi_log_info": {
             "mi_12.txt": {
-                "file_size": 19,
-                "created_at": "2024-09-24 21:03:50",
-                "modified_at": "2024-09-24 19:26:25",
-                "short_content": "time \n\ntime "
+                "file_size": 248,
+                "created_at": "2024-09-24 19:26:22",
+                "modified_at": "2024-09-24 21:46:11",
+                "log_start_time": "2024-09-24 15:10:17",
+                "log_end_time": "2024-09-24 15:10:20"
             },
             "number_of_mi_files": 1
         },
         "mt_log_info": {
             "mt_12.txt": {
                 "file_size": 12,
-                "created_at": "2024-09-24 21:03:50",
+                "created_at": "2024-09-24 19:25:44",
                 "modified_at": "2024-09-24 19:25:55",
-                "short_content": "time \ntime "
+                "log_start_time": null,
+                "log_end_time": null
             },
             "number_of_mt_files": 1
         },
@@ -22,25 +24,24 @@
             "recycle_files": {
                 "IFFF001_00000": {
                     "file_size": 0,
-                    "created_at": "2024-09-24 21:03:50",
-                    "modified_at": "2024-09-24 19:40:03",
-                    "short_content": []
+                    "created_at": "2024-09-24 19:26:54",
+                    "modified_at": "2024-09-24 19:40:03"
                 }
             },
             "out_files": {
                 "IFF001": {
                     "file_size": 0,
-                    "created_at": "2024-09-24 21:03:50",
-                    "modified_at": "2024-09-24 19:27:36",
-                    "short_content": []
+                    "created_at": "2024-09-24 19:27:36",
+                    "modified_at": "2024-09-24 21:45:33"
                 }
             }
         },
         "test_run_infor": {
-            "file_size": 19,
-            "created_at": "2024-09-24 21:03:50",
-            "modified_at": "2024-09-24 19:26:13",
-            "short_content": "time \n\ntime "
+            "file_size": 248,
+            "created_at": "2024-09-24 19:26:03",
+            "modified_at": "2024-09-24 21:46:06",
+            "log_start_time": "2024-09-24 15:10:17",
+            "log_end_time": "2024-09-24 15:10:20"
         }
     }
 }
