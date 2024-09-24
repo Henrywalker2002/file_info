@@ -1,0 +1,46 @@
+{
+    "case3_02": {
+        "mi_log_info": {
+            "mi_12.txt": {
+                "file_size": 19,
+                "created_at": "2024-09-24 21:03:50",
+                "modified_at": "2024-09-24 19:26:25",
+                "short_content": "time \n\ntime "
+            },
+            "number_of_mi_files": 1
+        },
+        "mt_log_info": {
+            "mt_12.txt": {
+                "file_size": 12,
+                "created_at": "2024-09-24 21:03:50",
+                "modified_at": "2024-09-24 19:25:55",
+                "short_content": "time \ntime "
+            },
+            "number_of_mt_files": 1
+        },
+        "test_results_infor": {
+            "recycle_files": {
+                "IFFF001_00000": {
+                    "file_size": 0,
+                    "created_at": "2024-09-24 21:03:50",
+                    "modified_at": "2024-09-24 19:40:03",
+                    "short_content": []
+                }
+            },
+            "out_files": {
+                "IFF001": {
+                    "file_size": 0,
+                    "created_at": "2024-09-24 21:03:50",
+                    "modified_at": "2024-09-24 19:27:36",
+                    "short_content": []
+                }
+            }
+        },
+        "test_run_infor": {
+            "file_size": 19,
+            "created_at": "2024-09-24 21:03:50",
+            "modified_at": "2024-09-24 19:26:13",
+            "short_content": "time \n\ntime "
+        }
+    }
+}

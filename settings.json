@@ -1,0 +1,6 @@
+{
+    "root_tp_path" : "D:\\project\\file_info\\tp0000",
+    "case_name" : "case3_02", 
+    "is_to_file" : true, 
+    "file_output_path" : "D:\\project\\file_info\\output.json" 
+}
